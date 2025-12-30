@@ -5,7 +5,6 @@ import yaml from "js-yaml";
 import { ensureDirExists, addBasePathIfAbsolute } from "./utils.js";
 
 const TYPE_MAP = {
-  giscus: "GiscusProps",
 };
 
 const sitePath = path.join(
@@ -42,7 +41,14 @@ export function toTS(obj, indent = 0) {
       }
 
       if (typeof value === "string") {
-        const finalValue = addBasePathIfAbsolute(value.trim(), site.base);
+        const trimmedValue = value.trim();
+        // Skip base path prepending for image paths - Vite handles these automatically
+        // Image paths in public folder should remain as /images/... for Vite to handle base URL
+        const isImagePath = trimmedValue.startsWith("/images/") || 
+                           /\.(png|jpg|jpeg|gif|svg|webp|ico)$/i.test(trimmedValue);
+        const finalValue = isImagePath 
+          ? trimmedValue 
+          : addBasePathIfAbsolute(trimmedValue, site.base);
         return pad(indent + 2) + `${formattedKey}: \`${finalValue}\``;
       }
 

@@ -20,13 +20,11 @@
     "build:article-index": "node scripts/build-article-index.js config/articles.yaml",
     "build:site-json": "node scripts/generate-site-json.js config/site.yaml",
     "convert:config:profile": "node scripts/yaml-to-ts.js config/profile.yaml",
-    "convert:config:giscus": "node scripts/yaml-to-ts.js config/giscus.yaml",
     "convert:config:sidebar": "node scripts/yaml-to-ts.js config/sidebar.yaml",
     "convert:config:homepage": "node scripts/yaml-to-ts.js config/homepage.yaml",
     "convert:config": "npm-run-all convert:config:*"
   },
   "dependencies": {
-    "@giscus/react": "^3.1.0",
     "@radix-ui/react-avatar": "^1.1.9",
     "@radix-ui/react-collapsible": "^1.1.10",
     "@radix-ui/react-dialog": "^1.1.13",

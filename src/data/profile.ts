@@ -5,7 +5,7 @@ export const profile = {
   headline: `iOS Engineer at Grab`,
   email: `natasha.radika@gmail.com`,
   location: `Jakarta, Indonesia`,
-  profileImage: `/natasharadika/images/profile.jpg`,
+  profileImage: `/images/profile.jpg`,
   links: [
     {
       name: `LinkedIn`,

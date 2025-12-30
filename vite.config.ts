@@ -6,8 +6,9 @@ import { defineConfig } from "vite";
 import site from "./src/data/generated/site.json";
 
 // https://vite.dev/config/
-export default defineConfig({
-  base: site.base,
+export default defineConfig(({ command }) => ({
+  // Use "/" for local development, site.base for production builds
+  base: command === "build" ? site.base : "/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
@@ -15,4 +16,4 @@ export default defineConfig({
       "/src": path.resolve(__dirname, "src"),
     },
   },
-});
+}));
