@@ -26,66 +26,51 @@ projects:
   items:
     - id: "aura"
       displayName: "Aura"
-      description: "A sample project for demonstration purposes."
+      description: "Aura is an app designed to help blind individuals independently match their outfits using machine learning and RFID technology. It works by scanning clothing tags embedded with RFID chips to identify colors, patterns, and textures. The app then provides guidance on matching clothes based on color theory. Aura has won several awards, including GEMASTIK XVII and Microsoft's AI for Accessibility."
       topics:
         - "cross-platform"
         - "hackathon"
       language: "Dart, Flutter"
-      previewImage: https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg
-      html_url: https://github.com/username/example-project
-      homepage: https://example-project-demo.com
+      previewImage: "/images/aura.png"
+      homepage: https://linktr.ee/project_aura
       featured: true
       created_at: "2024-07-01T00:00:00Z"
       updated_at: "2024-12-31T00:00:00Z"
 
     - id: "mimicri"
       displayName: "Mimicri"
-      description: "🎋 NeurIPS 2024: Official repository for the paper 'RankUp: Boosting Semi-Supervised Regression with an Auxiliary Ranking Classifier'"
+      description: "Mimicri helps painters achieve target colors by providing accurate color mixing formulas using UIKit, VIPER architecture, SwiftData, Combine, and the Kubelka-Munk theory, with CI/CD implementation."
       topics:
         - "ios"
         - "apple-academy"
       language: "Swift, UIKit"
-      previewImage: https://pm25.github.io/research-figures/rankup/figures/rankup-illustration.png
-      html_url: https://github.com/pm25/Semi-Supervised-Regression
+      previewImage: "/images/mimicri.png"
+      homepage: https://linktr.ee/mimicri.app
       featured: true
-      created_at: "2024-10-22T21:47:31Z"
-      updated_at: "2025-11-17T08:49:19Z"
+      created_at: "2024-09-01T21:47:31Z"
+      updated_at: "2024-12-31T08:49:19Z"
 
     - id: "weather-way"
       displayName: "WeatherWay"
-      description: "🍃 SimplePlus - A minimalist and clean LaTeX Beamer theme"
+      description: "WeatherWay is a weather app built using SwiftUI, WeatherKit, and MapKit, designed to provide weather alerts for your route."
       topics:
         - "ios"
         - "apple-academy"
       language: "Swift, SwiftUI"
-      previewImage: https://raw.githubusercontent.com/pm25/simpleplus-beamerTheme/master/preview/slide-1.webp
-      html_url: https://github.com/pm25/SimplePlus-BeamerTheme
+      previewImage: "/images/weatherway.png"
+      html_url: https://github.com/JonathanAaron3005/Nano-3_WeatherMap-main
       featured: true
-      created_at: "2021-12-14T08:33:39Z"
-      updated_at: "2025-11-26T16:09:45Z"
+      created_at: "2024-04-14T08:33:39Z"
+      updated_at: "2024-04-26T16:09:45Z"
 
-    - id: "unmasked"
-      displayName: "Unmasked"
-      description: "🍃 SimplePlus - A minimalist and clean LaTeX Beamer theme"
-      topics:
-        - "ios"
-        - "apple-academy"
-      language: "Swift, SwiftUI"
-      previewImage: https://raw.githubusercontent.com/pm25/simpleplus-beamerTheme/master/preview/slide-1.webp
-      html_url: https://github.com/pm25/SimplePlus-BeamerTheme
-      featured: true
-      created_at: "2021-12-14T08:33:39Z"
-      updated_at: "2025-11-26T16:09:45Z"
-    
     - id: "intone"
       displayName: "Intone"
-      description: "🍃 SimplePlus - A minimalist and clean LaTeX Beamer theme"
+      description: "Intone is a private voice-sharing app that lets people send secure voice notes to loved ones; added Face ID for privacy and built the experience with SwiftUI, AVFoundation, Lottie, WidgetKit, and Supabase."
       topics:
         - "ios"
         - "apple-academy"
       language: "Swift, SwiftUI"
-      previewImage: https://raw.githubusercontent.com/pm25/simpleplus-beamerTheme/master/preview/slide-1.webp
-      html_url: https://github.com/pm25/SimplePlus-BeamerTheme
+      previewImage: "/images/intone.png"
       featured: true
-      created_at: "2021-12-14T08:33:39Z"
-      updated_at: "2025-11-26T16:09:45Z"
+      created_at: "2024-03-14T08:33:39Z"
+      updated_at: "2024-03-26T16:09:45Z"
