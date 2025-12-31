@@ -45,6 +45,7 @@ projects:
         - "apple-academy"
       language: "Swift, UIKit"
       previewImage: "/images/mimicri.png"
+      html_url: https://github.com/tashagrc/colormixer
       homepage: https://linktr.ee/mimicri.app
       featured: true
       created_at: "2024-09-01T21:47:31Z"
