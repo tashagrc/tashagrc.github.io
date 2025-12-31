@@ -1,26 +1,50 @@
 export const awards = [
   {
-    category: `Misc`,
-    title: `[Your Talk Title Here]`,
-    organization: `[Your Talk Location Here]`,
-    date: `[Month Day, Year]`,
-    link: `https://example.com/your-talk-link`,
-    image: `https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg`
-  },
-  {
-    category: `Workshop`,
-    title: `Deep Learning with Keras`,
-    organization: `University of Illinois Urbana-Champaign (UIUC)`,
-    date: `Sep 4, 2019`,
+    category: `International`,
+    title: `Nominee (Inclusion Category) - APICTA 2024`,
+    organization: `APICTA, Brunei Darussalam`,
+    date: `Dec 2024`,
     link: null,
-    image: `https://pm25.github.io/images/uiuc-workshop.webp`
+    image: null
   },
   {
-    category: `Workshop`,
-    title: `Practical Guide to PyTorch`,
-    organization: `ABC University`,
-    date: `Dec 5, 2022`,
-    link: `https://example.com/workshop-talk`,
+    category: `National`,
+    title: `3rd Winner - Software Development GEMASTIK XVII`,
+    organization: `Pusat Prestasi Nasional`,
+    date: `Dec 2024`,
+    link: null,
+    image: null
+  },
+  {
+    category: `University`,
+    title: `1st Winner - AI for Accessibility Hackathon`,
+    organization: `Microsoft`,
+    date: `Dec 2024`,
+    link: null,
+    image: null
+  },
+  {
+    category: `National`,
+    title: `1st Winner - Mobile Development IITC Intermedia`,
+    organization: `Amikom Purwokerto x Grab`,
+    date: `Oct 2023`,
+    link: null,
+    image: null
+  },
+  {
+    category: `National`,
+    title: `1st Winner - Mobile Development INVFEST 7.0`,
+    organization: `Telkom Purwokerto`,
+    date: `Jan 2023`,
+    link: null,
+    image: null
+  },
+  {
+    category: `National`,
+    title: `2nd Winner - Mobile Development TECHFEST`,
+    organization: `BINUS University`,
+    date: `Aug 2022`,
+    link: null,
     image: null
   }
 ];

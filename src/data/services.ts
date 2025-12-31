@@ -5,7 +5,23 @@ export const services = [
     organization: `Generation Girl`,
     date: `2023`,
     link: `https://www.instagram.com/generationgirl.id/p/Cw7f97my0Ep/`,
-    image: `images/mentorGeng.png`
+    image: `/images/mentorGeng.png`
+  },
+  {
+    category: `Volunteering`,
+    role: `Web Developer`,
+    organization: `Economic Space`,
+    date: `2023 - 2024`,
+    link: `https://www.instagram.com/economic.space/`,
+    image: null
+  },
+  {
+    category: `Volunteering`,
+    role: `Guest Speaker`,
+    organization: `BINUS University`,
+    date: `2025`,
+    link: null,
+    image: `/images/talkBINUS.jpg`
   },
   {
     category: `Publications`,
@@ -16,27 +32,11 @@ export const services = [
     image: null
   },
   {
-    category: `Volunteering`,
-    role: `Guest Speaker`,
-    organization: `BINUS University`,
-    date: `2025`,
-    link: null,
-    image: `images/talkBINUS.jpg`
-  },
-  {
     category: `Teaching`,
     role: `Laboratory Assistant`,
     organization: `BINUS University`,
     date: `2022 - 2023`,
     link: null,
-    image: `images/labBINUS.jpeg`
-  },
-  {
-    category: `Volunteering`,
-    role: `Web Developer`,
-    organization: `Economic Space`,
-    date: `2023 - 2024`,
-    link: `https://www.instagram.com/economic.space/`,
-    image: null
+    image: `/images/labBINUS.jpeg`
   }
 ];
